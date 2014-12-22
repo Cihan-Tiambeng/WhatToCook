@@ -1,23 +1,44 @@
-package proje;
+//package proje;
+
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Recipe {
     int num;
     String name;
     int cal;
-    Ingredient[] ingredientList;
+ //   Ingredient[] ingredientList;
     int numOfLikes;
     int reqCookTime;
-    string tarif;
-    public Recipe(int id, String nam, int calori,Ingredient[] ingredients, int likes, int cookTime, String instructions){
+    String tarif;
+    
+    
+    // CONSTRUCTORS
+    
+//    public Recipe(int id, String nam, int calori,Ingredient[] ingredients, int likes, int cookTime, String instructions){
+//        num = id;
+//        name  = nam;
+//        cal = calori;
+//        ingredientList = ingredients;
+//        numOfLikes = likes;
+//        reqCookTime = cookTime;
+//        tarif = instructions;
+//        System.out.println("Recipe " + nam + " has been created.");
+//    }
+    
+    public Recipe(int id, String nam, int calori, int likes, int cookTime, String instructions){
+    	
         num = id;
         name  = nam;
         cal = calori;
-        ingredientList = ingredients;
         numOfLikes = likes;
         reqCookTime = cookTime;
         tarif = instructions;
         System.out.println("Recipe " + nam + " has been created.");
     }
+    
+    public Recipe(){}
+    
     public int getId(){
         return num;
     }
@@ -54,22 +75,24 @@ public class Recipe {
     public void setInstructions(String newIns){
         tarif = newIns;
     }
-    public String toString(){
-        String out = "Recipe id: " + num + "\nRecipe name: " + name + "\nCalori: " + cal + "\nNumber of likes: " + numOfLikes + "\nCook time: " + reqCookTime "\nInstructions: " + tarif + "\nIngredients are as follows: \n";
-        int n=0;
-        for(int i = 0; i < ingredientList.length;i++){
-            n= i+1;
-            out += "\t" + n + ". " + ingredientList[i].getName() + "\n";
-        }
-        return out;
-    }
-    public boolean searchIngredient(String look){
-        boolean out = false;
-        for(int i= 0;i<ingredientList.length;i++){
-            if(ingredientList[i].getName() == look){
-                out = true;
-            }
-        }
-        return out;
-    }
+//    public String toString(){
+//        String out = "Recipe id: " + num + "\nRecipe name: " + name + "\nCalori: " + cal + "\nNumber of likes: " + numOfLikes + "\nCook time: " + reqCookTime "\nInstructions: " + tarif + "\nIngredients are as follows: \n";
+//        int n=0;
+//        for(int i = 0; i < ingredientList.length;i++){
+//            n= i+1;
+//            out += "\t" + n + ". " + ingredientList[i].getName() + "\n";
+//        }
+//        return out;
+//    }
+//    public boolean searchIngredient(String look){
+//        boolean out = false;
+//        for(int i= 0;i<ingredientList.length;i++){
+//            if(ingredientList[i].getName() == look){
+//                out = true;
+//            }
+//        }
+//        return out;
+//    }
+    
+
 }
