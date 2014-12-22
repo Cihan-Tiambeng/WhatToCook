@@ -12,9 +12,6 @@ import org.w3c.dom.NodeList;
 
 /* XmlParser.java
  * 
- * @author : Selçuk Gülcan
- * @date : 06.05.12
- * 
  * Description 
  */
 public class XmlParser implements Iterable<String[]>, Iterator<String[]> {
