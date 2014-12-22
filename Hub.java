@@ -4,7 +4,6 @@ import java.util.Date;
 /* Hub.java
  * 
  * @authors : Cihan Tiambeng, Görkem Tong, Idil Şen, Merve Tuncel
- * @date : 11.05.13
  * 
  * description
  */
