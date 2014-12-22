@@ -4,16 +4,18 @@ I. INSTRUCTIONS
 
 1. Add all Java class files into your IDE workspace for Java Application
 2. Execute the main method in the class Hub.java
-==========
+
 
 II. MySQL SERVER HOST
+==========
 
 The database is ran locally. Because I do not know the instructions to migrate a local 
 server to another machine the MySQL files will not be available. However we can show it 
 function during the demo.
-==========
+
 
 III. WHAT THE PROGRAM CAN DO
+==========
 
 Right now the program can connects a MySQL database named "root", password "CS319" and a 
 table with the name "wtc"
