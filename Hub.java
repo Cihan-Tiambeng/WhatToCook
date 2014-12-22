@@ -3,7 +3,7 @@ import java.util.Date;
 
 /* Hub.java
  * 
- * @authors : Ahad Süleymanlý, Cihan Tiambeng, Emrehan Tüzün, Ömer Faruk Þahin, Selçuk Gülcan
+ * @authors : Cihan Tiambeng, GÃ¶rkem Tong, Idil Åžen, Merve Tuncel
  * @date : 11.05.13
  * 
  * description
