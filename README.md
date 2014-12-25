@@ -24,4 +24,4 @@ It has a Graphical User Interface but it is not connected to any of other classe
 The RecipeContainer Class can perform sorts on its own. Run the main method in 
 RecipeContainer to test it.
 
-We still tried to implement the patterns the course taught us while writing the code.
+We still tried to implement the patterns the course taught us while writing the code. 
